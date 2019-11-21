@@ -263,7 +263,6 @@ input[type="button"].button-primary:focus{color:#FDCD3B;background-color:#323e42
 
 .main-splash{
 	position:relative;
-	background-image:none;
 	background-image:url(../img/main-splash.jpg);
 }
 
