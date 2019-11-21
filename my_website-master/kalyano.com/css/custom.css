@@ -1,0 +1,248 @@
+h1 {
+	font-family: 'Montserrat', cursive;
+}
+
+/* SPLASH IMAGE */
+#splash{
+	height:100vh;
+	position:relative;
+	text-align:center;
+	width:100%;
+	min-height:350px;
+	background-color:#2A3A3F;
+	background-size:cover;
+	background-position:center center;
+	background-repeat:no-repeat;
+	}
+
+#splash:before,#splash:after{
+	content:'';
+	position:absolute;
+	bottom:0;
+	width:100%;
+}
+
+.main-splash{
+	position:relative;
+	background-image:none;
+}
+
+@media screen and (min-width: 550px){
+	.main-splash{
+		background-image:url(../images/main-splash.jpg);
+	}
+}
+
+.main-splash:before{
+	content:"";
+	display:block;
+	position:absolute;
+	top:0;
+	right:0;
+	bottom:0;
+	left:0;
+	pointer-events:none;
+	background-image:-webkit-linear-gradient(left, rgba(49,61,65,0.6), rgba(49,61,65,0.6));
+	background-image:linear-gradient(90deg, rgba(49,61,65,0.6), rgba(49,61,65,0.6));
+}
+
+/* SPLASH CONTENT */
+.splash-container{
+	display:table;
+	margin:0 auto;
+	padding:0 20px;
+	height:100%;
+}
+
+@media screen and (min-width: 550px){
+	.splash-container{
+		padding:0 40px;
+	}
+}
+
+.splash-content{
+	display:table-cell;
+	position:relative;
+	z-index:10;
+	text-align:center;
+	vertical-align:middle;
+}
+
+.splash-content h1{
+	font-size:2.3rem;
+	color:#fff;
+	margin-bottom:0rem;
+}
+
+@media screen and (min-width: 750px){
+	.splash-content h1{
+		font-size:3.4rem;
+	}
+}
+
+@media screen and (min-width: 1000px){
+	.splash-content h1{
+		font-size:5.7rem;
+	}
+}
+
+.splash-content a.button-ghost{
+	margin:3.6rem 0 0;
+	padding:1.0rem 2.6rem;
+	font-size:1.1rem;
+	border:2px solid #FDCD3B;
+}
+
+.splash-content a.button-ghost:hover{
+	padding:1.0rem 3.4rem;
+}
+
+@media screen and (min-width: 550px){
+	.splash-content a.button-ghost{
+		margin:6.0rem 0 0;
+		padding:1.4rem 3.2rem;
+		font-size:1.4rem;
+		border:2px solid #FDCD3B;
+	}
+	.splash-content a.button-ghost:hover{
+		padding:1.4rem 4.0rem;
+	}
+}
+
+/* TEXT ANIMATION */
+
+.cd-words-wrapper{
+	display:inline-block;
+	position:relative;
+	text-align:left
+}
+
+.cd-words-wrapper b{
+	display:inline-block;
+	position:absolute;
+	white-space:nowrap;
+	left:0;
+	top:0
+}
+
+.cd-words-wrapper b.is-visible{
+	position:relative
+}
+
+.no-js .cd-words-wrapper b{
+	opacity:0
+}
+
+.no-js .cd-words-wrapper b.is-visible{
+	opacity:1
+}
+
+.cd-headline.type .cd-words-wrapper{
+	vertical-align:top;
+	overflow:hidden;
+	font-weight:400
+}
+
+.cd-headline.type .cd-words-wrapper::after{
+	content:'';
+	position:absolute;
+	right:0;
+	top:50%;
+	bottom:auto;-webkit-transform:translateY(-50%);transform:translateY(-50%);
+	height:90%;
+	width:1px;
+	background-color:#aebcb9
+}
+
+.cd-headline.type .waiting::after{
+	-webkit-animation:cd-pulse 1s infinite;
+	animation:cd-pulse 1s infinite
+}
+
+.cd-headline.type .cd-words-wrapper.selected{
+	background-color:#93a4aa
+}
+
+.cd-headline.type .cd-words-wrapper.selected::after{
+	visibility:hidden
+}
+
+.cd-headline.type .cd-words-wrapper.selected b{
+	color:#2A3A3F
+}
+
+.cd-headline.type b{
+	visibility:hidden
+}
+
+.cd-headline.type b.is-visible{
+	visibility:visible;font-style:normal
+}
+
+.cd-headline.type i{
+	position:absolute;visibility:hidden;font-style:normal
+}
+
+.cd-headline.type i.in{
+	position:relative;visibility:visible;font-style:normal
+}
+
+@-webkit-keyframes cd-pulse{
+	0%{-webkit-transform:translateY(-50%) scale(1);opacity:1}
+	40%{-webkit-transform:translateY(-50%) scale(0.9);opacity:0}
+	100%{-webkit-transform:translateY(-50%) scale(0);opacity:0}
+}
+
+@keyframes cd-pulse{
+	0%{-webkit-transform:translateY(-50%) scale(1);transform:translateY(-50%) scale(1);opacity:1}
+	40%{-webkit-transform:translateY(-50%) scale(0.9);transform:translateY(-50%) scale(0.9);opacity:0}
+	100%{-webkit-transform:translateY(-50%) scale(0);transform:translateY(-50%) scale(0);opacity:0}}
+
+/* INTRO */
+.intro1 {
+	margin-bottom: 50px;
+	font-family: 'Montserrat', cursive;
+}
+
+.intro1 h1{
+	font-size: 3rem;
+	font-weight: 700;
+	text-align: center;
+}
+
+.main-points {
+	font-family: 'Montserrat', cursive;
+}
+
+.main-points h3{
+	text-align: center;
+	font-size: 2rem;
+    margin-bottom: 2px;
+    font-weight: 700;
+}
+
+.main-points p{
+	text-align: center;
+	font-size: 1.7rem;
+	font-weight: 200;
+}
+
+#intro{
+	background-color:#fff;
+	text-align:center;
+	padding-top: 70px;
+	padding-bottom: 70px;
+}
+
+#intro i{
+	font-size: 5rem;
+}
+
+#portfolio{
+	padding-top: 70px;
+	padding-bottom: 70px;
+	background-color:#eeeeee;
+	text-align:center;
+}
+
+.yellow{color:#00B9FF;}
