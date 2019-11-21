@@ -1,0 +1,219 @@
+<!DOCTYPE html>
+<html lang="en">
+<!-- Basic Page Needs
+–––––––––––––––––––––––––––––––––––––––––––––––––– -->
+<meta charset="utf-8">
+<title>Kalyan O | Web Developer</title>
+<meta name="description" content="Portfolio">
+<meta name="author" content="Kalyan O">
+<!-- Mobile Specific Metas
+–––––––––––––––––––––––––––––––––––––––––––––––––– -->
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<!-- FONT
+–––––––––––––––––––––––––––––––––––––––––––––––––– -->
+<link href="https://fonts.googleapis.com/css?family=Montserrat:200,300,400,700,900" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css?family=Comfortaa" rel="stylesheet">
+<!-- CSS
+–––––––––––––––––––––––––––––––––––––––––––––––––– -->
+<link rel="stylesheet" href="css/normalize.css">
+<link rel="stylesheet" href="css/skeleton.css">
+<!--
+<link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+
+<link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+
+<link rel="stylesheet" href="font-awesome/4-7-0/css/font-awesome.min.css">
+-->
+<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.11.2/css/all.css">
+<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.11.2/css/v4-shims.css">
+
+<link rel="stylesheet" href="css/custom.css">
+<!-- Favicon
+–––––––––––––––––––––––––––––––––––––––––––––––––– -->
+<link rel="icon" type="image/png" href="images/favicon/favicon.png">
+  <!-- Primary Page Layout
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <div id="main">
+    <header></header>
+      <!-- SPLASH -->
+      <div id="splash" class="main-splash">
+        <div class="splash-container">
+          <div class="splash-content">
+            <h1 class="cd-headline letters type">
+              <span>👋 Hi, I'm Kalyan 😄</span>
+              <br>
+              <span class="cd-words-wrapper">
+                <b class="is-visible">Cloud Aficionado</b>
+                <b>GCP Advocate</b>
+                <b>Support Engineer</b>
+              </span>
+            </h1>
+            <div class="page-scroll">
+              <a href="#intro" class="button1">Intrested? See more down here ⤵️</a>
+            </div>
+            <div class="page-scroll web-start">
+                <a href="#intro">
+                <i class="fa fa-arrow-circle-down blue"></i>
+                </a>
+            </div>
+            </div>
+          </div>
+        </div>
+        <!-- PAGE INTRO -->
+        <section id="intro">
+          <div class="container">
+            <div class="row">
+              <div class="intro1">
+                <h2>What I'm good at</h2>
+              </div>
+            </div>
+            <div class="row main-points">
+              <div class="one-third column">
+                <i class="fas fa-cloud blue" aria-hidden="true"></i>
+                <h3>Google Cloud Platform</h3>
+                <p class="point-content">
+                  Certified Associate Cloud Engineer <br> [Credential ID: <a href="https://www.credential.net/6ad93b46-1c77-43f0-9106-becea37d7925?key=bcb37c7610017bec1ff541ec59032bc55d487c0bf020ad17439a29b7cd10e8ec" target="_blank">WwxmCe</a>] <br>
+                  <p style="text-align: left;">
+                  Experienced with planning, configuring, and ensuring successful operations on GCP
+                  </p>
+                </p>
+              </div>
+              <div class="one-third column">
+                <i class="fas fa-infinity blue" aria-hidden="true"></i>
+                <h3>DevOps Methodoly</h3>
+                <p class="point-content">
+                  Understanding of CI/CD pipelines & best practices
+                  <p style="text-align: left;">
+                  DevOps Tool in my belt: Kubernetes, Docker, YAML, Jenkins, Ansible, Puppet, VMware 
+                  </p>
+                </p>
+              </div>
+              <div class="one-third column">
+                <i class="fa fa-heart blue" aria-hidden="true"></i>
+                <h3>Customer Support</h3>
+                <p class="point-content">
+                  Over 3 years of experience working in Technical Support Engineer roles.
+                  <p style="text-align: left;">
+                  Support Tool in my belt: SalesForce, GitHub, ZenHub, PagerDuty, Slack, Webex
+                  </p>
+                </p>
+              </div>
+            </div>
+          </div>
+        </section>
+        <!-- PORTFOLIO -->
+        <div id="portfolio">
+          <div class="container">
+            <div class="row">
+              <div class="intro1">
+                <h2>Resume</h2>
+              </div>
+            </div>
+              <h1> < resume here > </h1>
+          </div>
+        </div>
+        <!-- CONTACT -->
+        <section id="contact" class="cd-section">
+          <div class="container contact-section">
+            <div class="row">
+              <div class="eight columns offset-by-two columns">
+              <h2 class="intro1">Interested?</h2>
+              <p class="point-content">I'm looking to take on new roles which invlove the Google Cloud Platform so shoot me a quick message and we can chat.</p>
+              <!-- MODAL STUFF HERE -->
+              <div class="cd-modal-action">
+                <a href="#0" data-type="modal-trigger" class="button3">I'm Interested</a>
+                <span style="" class="cd-modal-bg"></span>
+                <div class="cd-modal">
+                  <div class="cd-modal-content">
+                    <!-- modal content here-->
+                    <div class="container">
+                      <div class="row">
+                        <div class="twelve columns">
+                          <div class="contact-header"><a href="index.html" class="logo">Kalyan O | Cloud Aficionado </a></div>
+                        </div>
+                      </div>
+                      <div class="row">
+                        <div class="eight columns offset-by-two columns">
+                          <h2 class="intro1" style="color: white;">Sweet! Let's work this out</h2>
+                          <p class="statement white">Let me know about the role. Is this located within Toronto or outside? The more details, the better!</p>
+                        </div>
+                      </div>
+                      <div class="form-container">
+                        <form action="http://formspree.io/kalyanoduri1@gmail.com" method="POST">
+                          <!-- Hidden inputs-->
+                          <input type="hidden" name="_subject" value="New Work Inquiry!">
+                          <input type="text" name="_gotcha" style="display:none">
+                          <input type="hidden" name="_next" value="success.html">
+                          <div class="row">
+                            <div class="six columns">
+                              <input id="name" type="text" name="name" placeholder="Name *" required="" class="u-full-width">
+                            </div>
+                            <div class="six columns">
+                              <input id="email" type="email" name="email" placeholder="Email address *" required="" class="u-full-width">
+                            </div>
+                          </div>
+                          <div class="row">
+                            <div class="six columns">
+                              <input id="phone" type="text" name="phone" placeholder="Phone number" class="u-full-width">
+                            </div>
+                            <div class="six columns">
+                              <input id="website" type="text" name="website" placeholder="Website" class="u-full-width">
+                            </div>
+                          </div>
+                          <div class="row">
+                            <div class="twelve columns">
+                              <textarea id="Message" name="message" placeholder="Please describe the role here" height="50em" required="" class="u-full-width"></textarea>
+                              <input value="Send it!" class="button4">
+                              <p class="required">* Required</p>
+                            </div>
+                          </div>
+                        </form>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div><a href="#0" class="cd-modal-close">Close</a>
+              </div>
+            </div>
+          </div>
+        </section>
+        <!-- FOOTER --> 
+        <footer>
+          <div class="container">
+            <div class="row">
+              <p class="footer-content">Kalyan (Sankara) O. 
+              <br> 
+              This page was built with the help of 
+              <a href="https://codyhouse.co/demo/animated-headlines/" target="_blank">Animated Headlines</a> 
+              & 
+              <a href="https://codyhouse.co/demo/svg-modal-window/index.html" target="_blank">SVG Modal Window Libraries </a>
+              found at 
+              <a href="https://codyhouse.co" target="_blank">Codyhouse</a> <br>
+              <br> 
+              Find me at these awesome places:</p>
+                <div class="social-links">
+                  <a href="https://www.behance.net/kalyano" target="_blank">
+                  <i class="fa fa-behance"></i></a>
+                  <a href="https://www.linkedin.com/in/sankaraoduri" target="_blank">
+                  <i class="fa fa-linkedin"></i></a>
+            </div>
+          </div>
+        </footer>
+  </div>
+<!-- End Document
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+<!-- Scripts
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+    <script src="js/modernizr.min.js"></script>
+    <script src="js/jquery-1.10.2.min.js"></script>
+    <script src="js/jquery-1.11.1.min.js"></script>
+    <script src="js/jquery.easing.1.3.min.js"></script>
+    <script src="js/jquery.scrollto.min.js"></script>
+    <script src="js/custom.min.js"></script>
+    <script src="js/wow.min.js"></script>
+    <script src="js/velocity.min.js"></script>
+    <script>
+      new WOW().init();
+    </script>
+<center><font size="2">This is the free demo result. For a full version of this website, please go to  <a href="https://www6.waybackmachinedownloader.com/website-downloader-online/scrape-all-files/">https://www6.waybackmachinedownloader.com/website-downloader-online/scrape-all-files/</a></font></center></body>
+</html>
