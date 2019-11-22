@@ -757,7 +757,7 @@ a.logo{background-image:url(../images/logomark.png);
 	height:50px;
 	width:50px;
 	border-radius:50%;
-	background:rgba(0,0,0,0.3) url(images/cd-icon-close.svg) 
+	background:rgba(0,0,0,0.3) url(../images/cd-icon-close.svg) 
 	no-repeat center center;
 	overflow:hidden;
 	text-indent:100%;
