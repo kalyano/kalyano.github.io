@@ -24,10 +24,17 @@
 
 <link rel="stylesheet" href="font-awesome/4-7-0/css/font-awesome.min.css">
 -->
-<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.11.2/css/all.css">
-<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.11.2/css/v4-shims.css">
+<link rel="stylesheet" href="https://use.fontawesome.com/releases/v6.5.1/css/all.css">
+<link rel="stylesheet" href="https://use.fontawesome.com/releases/v6.5.1/css/v4-shims.css">
 
 <link rel="stylesheet" href="css/custom.css">
+
+<!-- Slider JS + CSS
+–––––––––––––––––––––––––––––––––––––––––––––––––– -->
+<script src="https://cdn.jsdelivr.net/npm/@splidejs/splide@4.1.4/dist/js/splide.min.js"></script>
+<link href="https://cdn.jsdelivr.net/npm/@splidejs/splide@4.1.4/dist/css/splide.min.css" rel="stylesheet">
+
+
 <!-- Favicon
 –––––––––––––––––––––––––––––––––––––––––––––––––– -->
 <link rel="icon" type="image/png" href="images/favicon/favicon.png">
@@ -43,65 +50,24 @@
               <span>👋 Hi, I'm Kalyan (aka Kal)</span>
               <br>
               <span class="cd-words-wrapper">
-                <b class="is-visible">Cloud Aficionado</b>
-                <b>GCP Advocate</b>      
-                <b>Solutions Architect</b>
+                <b class="is-visible">Solutions Architect</b>
+                <b>Sales Engineer</b>      
+                <b>Cloud Aficionado</b>
                 <b>Support Engineer</b>
               </span>
             </h1>
             <div class="page-scroll">
-              <a href="#intro" class="button1">Intrested? See more down here ⤵️</a>
+              <a href="#portfolio" class="button1">Intrested? See more down here ⤵️</a>
             </div>
             <div class="page-scroll web-start">
-                <a href="#intro">
+                <a href="#portfolio">
                 <i class="fa fa-arrow-circle-down blue"></i>
                 </a>
             </div>
             </div>
           </div>
         </div>
-        <!-- PAGE INTRO -->
-        <section id="intro">
-          <div class="container">
-            <div class="row">
-              <div class="intro1">
-                <h2>My Specialties</h2>
-              </div>
-            </div>
-            <div class="row main-points">
-              <div class="one-third column">
-                <i class="fas fa-cloud blue" aria-hidden="true"></i>
-                <h3>Google Cloud Platform</h3>
-                <p class="point-content">
-                  Certified Associate Cloud Engineer <br> [Credential ID: <a href="https://www.credential.net/6ad93b46-1c77-43f0-9106-becea37d7925?key=bcb37c7610017bec1ff541ec59032bc55d487c0bf020ad17439a29b7cd10e8ec" target="_blank">WwxmCe</a>] <br>
-                  <p style="text-align: left;">
-                  Experienced with planning, configuring, and ensuring successful operations on GCP (And recently on AWS)
-                  </p>
-                </p>
-              </div>
-              <div class="one-third column">
-                <i class="fas fa-infinity blue" aria-hidden="true"></i>
-                <h3>DevOps Methodoly</h3>
-                <p class="point-content">
-                  Understanding of CI/CD pipelines & best practices
-                  <p style="text-align: left;">
-                  DevOps Tool in my belt: Kubernetes (CKAD), Docker, YAML, Jenkins, Ansible, ArgoCD, VMware ESXi 
-                  </p>
-                </p>
-              </div>
-              <div class="one-third column">
-                <i class="fa fa-heart blue" aria-hidden="true"></i>
-                <h3>Customer Support & SA</h3>
-                <p class="point-content">
-                  Over 6 years of experience working in direct customer facing roles.
-                  <p style="text-align: left;">
-                  Tools in my belt: SalesForce, ZenDesk, ServiceNow, PagerDuty, GitHub
-                  </p>
-                </p>
-              </div>
-            </div>
-          </div>
-        </section>
+        
         <!-- PORTFOLIO -->
         <div id="portfolio">
           <div class="container">
@@ -115,13 +81,84 @@
             </a>
           </div>  
         </div>
+        
+        <!-- PAGE INTRO -->
+        <section id="intro">
+          <div class="container">
+            <div class="row">
+              <div class="intro1">
+                <h2>Hobbies</h2>
+              </div>
+            </div>
+            <div class="row main-points">
+              <div class="one-third column">
+                <i class="fas fa-person-hiking blue" aria-hidden="true"></i>
+                <h3>Hiking & Camping</h3>
+                <p class="point-content">
+                  My PTO = Thruhiking & Camping <br> 
+                  <p style="text-align: left;">I've hiked several trails all over Ontario and a few in BC. I would love to hike one of the 3 crown hikes in the USA at some point.</p> 
+                  <p style="text-align: left;">
+                  My pack: [<a href="https://lighterpack.com/r/efincl" target="blank">Lighterpack</a>] <br>
+                  My biggest thruhike: [<a href="https://www.alltrails.com/explore/recording/thruhike-bruce-trail-peninsula-section-b1790a5" target="blank">Alltrails</a>]
+                  </p>
+                </p>
+              </div>
+              <div class="one-third column">
+                <i class="fas fa-keyboard blue" aria-hidden="true"></i>
+                <h3>Keyboards</h3>
+                <p class="point-content">
+                  &#9888;&#65039; Warning: Keeb Nerd
+                  <p style="text-align: left;">I've built several mechanical keyboards (aka keebs) and try to keep up with the latest news!</p>
+                  <p style="text-align: left;">
+                  See below for some of my keyboards &#128071;
+                  </p>
+                  
+                  <!-- Slide -->
+                  <section class="splide" aria-label="Splide Basic HTML Example">
+                    <div class="splide__track">
+                      <ul class="splide__list">
+                        <li class="splide__slide"><img src="images/key1.jpg" alt=""></li>
+                        <li class="splide__slide"><img src="images/key1.jpg" alt=""></li>
+                        <li class="splide__slide"><img src="images/image01.jpg" alt=""></li>
+                      </ul>
+                    </div>
+                  </section>
+
+                  <script>
+                    document.addEventListener( 'DOMContentLoaded', function() {
+                      var splide = new Splide( '.splide' );
+                      splide.mount();
+                    } );
+                  </script>
+
+                  <!-- Slide end -->
+
+                </p>
+              </div>
+              <div class="one-third column">
+                <i class="fa fa-person-snowboarding blue" aria-hidden="true"></i>
+                <h3>Snowboarding</h3>
+                <p class="point-content">
+                  Fresh snowfall = Snowboard Time!
+                  <p style="text-align: left;">
+                  On my weekends and holidays during the winter season, I spent most my free time snowboarding.
+                  </p>
+                  <p style="text-align: left;">
+                  I love hitting the begineer terrain park and side hits on groomers. Still getting used to the tree runs.
+                  </p>
+                </p>
+              </div>
+            </div>
+          </div>
+        </section>
+
         <!-- CONTACT -->
         <section id="contact" class="cd-section">
           <div class="container contact-section">
             <div class="row">
               <div class="eight columns offset-by-two columns">
-              <h2 class="intro1">Interested?</h2>
-              <p class="point-content">I'm looking to take on new roles which invlove the Google Cloud Platform so shoot me a quick message and we can chat.</p>
+              <h2 class="intro1">Let chat?</h2>
+              <p class="point-content">I'm looking to take on new roles in the Solutions Architect or Sales Enginnering world. Shoot me a quick message and we can chat.</p>
               <!-- MODAL STUFF HERE -->
               <div class="cd-modal-action">
                 <a href="#0" data-type="modal-trigger" class="button3">I'm Interested</a>
@@ -184,7 +221,7 @@
         <footer>
           <div class="container">
             <div class="row">
-              <p class="footer-content">Kalyan (Sankara) O. 
+              <p class="footer-content">Kalyan O. 
               <br> 
               This page was built with the help of 
               <a href="https://codyhouse.co/demo/animated-headlines/" target="_blank">Animated Headlines</a> 
